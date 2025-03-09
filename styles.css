@@ -46,6 +46,7 @@ a{
     display: block;
     font-size:20px;
     text-decoration: none;
+    text-align: center;
     color: brown;
     margin: 10px auto;
 
@@ -56,11 +57,16 @@ li{
 }
 .recipe-list{
     display: flex;
+    justify-content: center;
     padding: 10px;
     border: 5px groove brown ;
-    /* flex:1; */
+    
     list-style: none;
     /* list-style-position: inside; */
 }
+
+/* .recipe-list > li {
+    flex: 1;
+} */
 
 
